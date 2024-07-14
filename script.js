@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   modal.hide();
   // Redirect to random.html
   setTimeout(function () {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   }, 500); // 500ms delay to allow modal to close
 });
 
